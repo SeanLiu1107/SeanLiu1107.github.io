@@ -14,7 +14,7 @@ nav.navigation {
 
 nav.navigation a {
 	text-decoration:none;
-	color:#FFE4C4;
+	color:#FFD700;
 }
 
 nav.navigation ul {
@@ -50,6 +50,7 @@ nav.navigation li:hover {
 #info-left {
 	padding-left: 220px;
 	float:left;
+	height: 200px;
 }
 
 #info-right {

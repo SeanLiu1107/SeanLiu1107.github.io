@@ -1,0 +1,138 @@
+body {
+	font-family: sans-serif;
+	background: #6495ED;
+	color: white;
+}
+
+nav.navigation {
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	z-index: 999;
+}
+
+nav.navigation a {
+	text-decoration:none;
+	color:#FFE4C4;
+}
+
+nav.navigation ul {
+	list-style: none;
+	padding: 0;
+	text-align: right;
+
+}
+nav.navigation li {
+	margin: 0px;
+	padding: 0px;
+	font-weight: bold;
+	margin-right: 20px;
+	display: inline-block;
+	user-select: none;
+	position: relative;
+}
+
+nav.navigation li:hover {
+	text-decoration: underline;
+}
+
+h1 {
+	text-align: center;
+	padding-top: 40px;
+}
+
+.projects {
+	padding-top: 30px;
+	display: flex;
+	align-items: center;
+	position: relative;
+	height: 600px;
+	width: 100%;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 0;
+}
+
+.projects h1 {
+	width:100%;
+	text-align: center;
+}
+.card{
+	margin: 100px 10px 10px 130px;
+	position: relative;
+	max-width: 300px;
+	height: 215px;
+	background: #343434;
+	box-shadow: 0 5px 202px rgba(0,0,0,0.5);
+	transition: .3s ease-in-out;
+}
+
+.card:hover{
+	height: 420px;
+}
+
+.project-image{
+	position: relative;
+	width: 260px;
+	height: 260px;
+	top: -60px;
+	left: 20px;
+	z-index: 1;
+	box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+
+.project-image img{
+	max-width: 100%;
+	border-radius: 4px;
+}
+
+.project-text{
+	position: relative;
+	margin-top: -140px;
+	padding: 10px 15px;
+	text-align: center;
+	color: #eee;
+	visibility: hidden;
+	opacity: 0;
+	transition: .3s ease-in-out;
+}
+
+.card:hover .project-text{
+	position: relative;
+	margin-top: -140px;
+	padding: 10px 15px;
+	text-align: center;
+	color: #eee;
+	visibility: visible;
+	opacity: 1;
+	margin-top: -40px;
+	transition-delay: .3s;
+}
+
+.demo_button {
+	padding-left: 645px;
+}
+
+.demo_button button {
+	width: 150px;
+	height: 35px;
+	border: 1px solid black;
+	cursor: pointer;
+	background: white;
+	position: relative;
+}
+
+.demo_button button a {
+	color: #2196f3;
+	text-decoration: none;
+	font-size: 15px;
+}
+
+.demo_button button a:hover {
+	color: #2196f3;
+	text-decoration: underline;
+}
+
+.demo_button button a:active {
+	color: red;
+}
